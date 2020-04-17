@@ -1,89 +1,89 @@
 [[Xorg_libXfixes]]
-arch = "aarch64"
-git-tree-sha1 = "6e4c74f337492e7906dee2a3b266f44e3e1e65c8"
+arch = "armv7l"
+git-tree-sha1 = "25fcb9dec5fc475c76912d03d6bb2187167207fd"
+libc = "glibc"
+os = "linux"
+
+    [[Xorg_libXfixes.download]]
+    sha256 = "8f5cfb838929be6a2bb7e0370b516491f1866d9de8fb6f706195a9f8dd1c27d7"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXfixes_jll.jl/releases/download/Xorg_libXfixes-v5.0.3+2/Xorg_libXfixes.v5.0.3.armv7l-linux-gnueabihf.tar.gz"
+[[Xorg_libXfixes]]
+arch = "i686"
+git-tree-sha1 = "ea0d3344145779dadb981c9c7f8d6b5c5705560d"
 libc = "musl"
 os = "linux"
 
     [[Xorg_libXfixes.download]]
-    sha256 = "b40bb7aa4cf590ad9d3a7313bc8a83939c0050880d0035ae83028bc608a8c534"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXfixes_jll.jl/releases/download/Xorg_libXfixes-v5.0.3+1/Xorg_libXfixes.v5.0.3.aarch64-linux-musl.tar.gz"
+    sha256 = "f43485fa8c4cd49621b90bddf94dbf0d8f7c6db6de3dd711b3b0a2b934a37af3"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXfixes_jll.jl/releases/download/Xorg_libXfixes-v5.0.3+2/Xorg_libXfixes.v5.0.3.i686-linux-musl.tar.gz"
 [[Xorg_libXfixes]]
 arch = "aarch64"
-git-tree-sha1 = "534d9aed8e5ebd5066fd996d69d2f2ee5a5d29b0"
+git-tree-sha1 = "28b91099cae6da1f511b3c860b47538c039d1a73"
 libc = "glibc"
 os = "linux"
 
     [[Xorg_libXfixes.download]]
-    sha256 = "81f1f97a9110634a7a8a3c249975d6444986e417d7460a3dc72b02f6c4b72a1f"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXfixes_jll.jl/releases/download/Xorg_libXfixes-v5.0.3+1/Xorg_libXfixes.v5.0.3.aarch64-linux-gnu.tar.gz"
+    sha256 = "9dc7ecf4b8cc462daa917d5e3ddd37ddcfd5ec9b0421a16a1b77d51ed551e8be"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXfixes_jll.jl/releases/download/Xorg_libXfixes-v5.0.3+2/Xorg_libXfixes.v5.0.3.aarch64-linux-gnu.tar.gz"
+[[Xorg_libXfixes]]
+arch = "armv7l"
+git-tree-sha1 = "17f80a6d4dc5cca180c265387e108e939302ac8e"
+libc = "musl"
+os = "linux"
+
+    [[Xorg_libXfixes.download]]
+    sha256 = "5f9cc8b9d6c8b933855d9b288594bbf5884e27bcd1d8bc3b6b8a7495c7130e90"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXfixes_jll.jl/releases/download/Xorg_libXfixes-v5.0.3+2/Xorg_libXfixes.v5.0.3.armv7l-linux-musleabihf.tar.gz"
+[[Xorg_libXfixes]]
+arch = "aarch64"
+git-tree-sha1 = "0e7fc056e7007b9968a6bf792a40620af4f7acc7"
+libc = "musl"
+os = "linux"
+
+    [[Xorg_libXfixes.download]]
+    sha256 = "351e36908ecf3090f8dc56b68dad58a6f8ee290d1b84d380bfc12e78e00fa08b"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXfixes_jll.jl/releases/download/Xorg_libXfixes-v5.0.3+2/Xorg_libXfixes.v5.0.3.aarch64-linux-musl.tar.gz"
 [[Xorg_libXfixes]]
 arch = "x86_64"
-git-tree-sha1 = "3ba863f2e4b0306103d60935f9d9f276d068071f"
-libc = "glibc"
-os = "linux"
-
-    [[Xorg_libXfixes.download]]
-    sha256 = "c9ba080b4c18faac5ee892e8377bd5c14e4f0faaa8487dee0ef8e764d9e383e8"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXfixes_jll.jl/releases/download/Xorg_libXfixes-v5.0.3+1/Xorg_libXfixes.v5.0.3.x86_64-linux-gnu.tar.gz"
-[[Xorg_libXfixes]]
-arch = "powerpc64le"
-git-tree-sha1 = "2e01f862beb884473199be940b54c6319f01fbbd"
-libc = "glibc"
-os = "linux"
-
-    [[Xorg_libXfixes.download]]
-    sha256 = "b16ef61f9bd1ba83b4d888eda302a3280f313c61d41068606f4cf5bc13c78bcf"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXfixes_jll.jl/releases/download/Xorg_libXfixes-v5.0.3+1/Xorg_libXfixes.v5.0.3.powerpc64le-linux-gnu.tar.gz"
-[[Xorg_libXfixes]]
-arch = "x86_64"
-git-tree-sha1 = "80aa93fa0c693a0aba82fb6c8c5110d626e5c825"
+git-tree-sha1 = "4a086622e5b1d56934a28fac27a17992f28969e1"
 os = "freebsd"
 
     [[Xorg_libXfixes.download]]
-    sha256 = "e29eee96674cf8d8470a60e1e6ffb3c4ab6d2ec94163ab099010f5fa36d4369e"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXfixes_jll.jl/releases/download/Xorg_libXfixes-v5.0.3+1/Xorg_libXfixes.v5.0.3.x86_64-unknown-freebsd11.1.tar.gz"
+    sha256 = "5caf4cbe2837929110f9e09eb961d4eede08d240cbc4c9e3778e5b466aabbcb2"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXfixes_jll.jl/releases/download/Xorg_libXfixes-v5.0.3+2/Xorg_libXfixes.v5.0.3.x86_64-unknown-freebsd11.1.tar.gz"
 [[Xorg_libXfixes]]
 arch = "i686"
-git-tree-sha1 = "c85c932d6e5e0c27d5cc71b478aeae8e596a7eb8"
+git-tree-sha1 = "169d1705c174e60d600621afed49e2b8e260600e"
 libc = "glibc"
 os = "linux"
 
     [[Xorg_libXfixes.download]]
-    sha256 = "8a8c81c69a6ae8111801109fb0def029269287ee0e6497525488e7bc1b5dbd63"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXfixes_jll.jl/releases/download/Xorg_libXfixes-v5.0.3+1/Xorg_libXfixes.v5.0.3.i686-linux-gnu.tar.gz"
-[[Xorg_libXfixes]]
-arch = "i686"
-git-tree-sha1 = "baac6a7fbefafa59eac3c66757f8d3572f99804b"
-libc = "musl"
-os = "linux"
-
-    [[Xorg_libXfixes.download]]
-    sha256 = "5375a234bacb7ae75da614f54cf8a2e8fbe8458f49bfe80a900762d266797ece"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXfixes_jll.jl/releases/download/Xorg_libXfixes-v5.0.3+1/Xorg_libXfixes.v5.0.3.i686-linux-musl.tar.gz"
-[[Xorg_libXfixes]]
-arch = "armv7l"
-git-tree-sha1 = "13a704129a0ec96746102b9b5b86293f58c88e4f"
-libc = "glibc"
-os = "linux"
-
-    [[Xorg_libXfixes.download]]
-    sha256 = "3f4d743214f54a3c6e32de348fec452f2c6f3474faa04196a369950acdcfb431"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXfixes_jll.jl/releases/download/Xorg_libXfixes-v5.0.3+1/Xorg_libXfixes.v5.0.3.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "e7ffc1ad20578a04b81ff59428f3dafa95282c63eb71f38e255f200952ee6b05"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXfixes_jll.jl/releases/download/Xorg_libXfixes-v5.0.3+2/Xorg_libXfixes.v5.0.3.i686-linux-gnu.tar.gz"
 [[Xorg_libXfixes]]
 arch = "x86_64"
-git-tree-sha1 = "b5039aa4bf181c0c6b462258b9d06250bbc0698b"
+git-tree-sha1 = "504591c872277b4ddff1d29ece500eb4ca6865ee"
 libc = "musl"
 os = "linux"
 
     [[Xorg_libXfixes.download]]
-    sha256 = "5124cc3ffd12e1e0036e7d8eaf2e1a958a8f121e18c8489eb05d3442e9f5f44c"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXfixes_jll.jl/releases/download/Xorg_libXfixes-v5.0.3+1/Xorg_libXfixes.v5.0.3.x86_64-linux-musl.tar.gz"
+    sha256 = "843a892d5cdc34212949350921fd0f8fca450ccf622912c01191b84fe1fe7cfe"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXfixes_jll.jl/releases/download/Xorg_libXfixes-v5.0.3+2/Xorg_libXfixes.v5.0.3.x86_64-linux-musl.tar.gz"
 [[Xorg_libXfixes]]
-arch = "armv7l"
-git-tree-sha1 = "bc94266716644f70044b81aef172247e0c55d25d"
-libc = "musl"
+arch = "x86_64"
+git-tree-sha1 = "b509ac76ce4554a449522e424ec8f05ef52a6a78"
+libc = "glibc"
 os = "linux"
 
     [[Xorg_libXfixes.download]]
-    sha256 = "04e7e852094217fb0644fa91af83bc01e7ef7dbf3e0d809c7d2e3e1a55d50846"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXfixes_jll.jl/releases/download/Xorg_libXfixes-v5.0.3+1/Xorg_libXfixes.v5.0.3.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "ba31959eb8931b3d91d6a1856c9d76df43f4212c4865472f3337f3c4aa05c26f"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXfixes_jll.jl/releases/download/Xorg_libXfixes-v5.0.3+2/Xorg_libXfixes.v5.0.3.x86_64-linux-gnu.tar.gz"
+[[Xorg_libXfixes]]
+arch = "powerpc64le"
+git-tree-sha1 = "a3ce54a628107863d39b8062ba73fc5d4ac5436d"
+libc = "glibc"
+os = "linux"
+
+    [[Xorg_libXfixes.download]]
+    sha256 = "651faf86828eb81f2d2c41d2f4d77393e31a57de7c4a57c2ecd1f023e47df2db"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXfixes_jll.jl/releases/download/Xorg_libXfixes-v5.0.3+2/Xorg_libXfixes.v5.0.3.powerpc64le-linux-gnu.tar.gz"
